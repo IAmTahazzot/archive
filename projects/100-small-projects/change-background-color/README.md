@@ -1,3 +1,5 @@
+![screenshot of project][2]
+
 # Generate random color
 
 I will be using the rgb (red, green, blue) color model to paint my html body element :) simple. Each color channel is expressed from 0 (least saturated) to 255 (most saturated). [Learn more about rgb (Wikipedia)][1]
@@ -36,3 +38,4 @@ const generateColor = () => {
 ```
 
 [1]: https://en.wikipedia.org/wiki/RGB_color_model
+[2]: ./screenshot.png
