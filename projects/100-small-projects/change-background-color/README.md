@@ -1,4 +1,8 @@
-![screenshot of project][2]
+<p align="center">
+  <img src="https://github.com/IAmTahazzot/Archive/blob/main/projects/100-small-projects/change-background-color/screenshot.png" 
+       width="750px"
+       alt="Project Screenshot"/>
+</p>
 
 # Generate random color
 
