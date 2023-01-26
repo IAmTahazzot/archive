@@ -20,7 +20,7 @@ const clock: () => void = () => {
         hour.style.transform = `translateY(50%) rotate(${hourDegrees}deg)`
     }
 
-    console.log(getSecond)
+    // console.log(getSecond)
 }
 
 // update clock in each second
