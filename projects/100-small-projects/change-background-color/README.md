@@ -42,4 +42,3 @@ const generateColor = () => {
 ```
 
 [1]: https://en.wikipedia.org/wiki/RGB_color_model
-[2]: ./screenshot.png
