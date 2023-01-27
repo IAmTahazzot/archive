@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/IAmTahazzot/Archive/blob/main/projects/hot-projects/hot-projects.png" alt="archive logo" width="200px" height="200px" />
+  <img src="https://github.com/IAmTahazzot/Archive/blob/main/projects/hot-projects/hot-projects.png" alt="archive logo" width="250px" height="250px" />
 </p>
 
 # Hot & Small Projects Ideas 🤗
