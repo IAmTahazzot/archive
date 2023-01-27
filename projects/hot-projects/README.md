@@ -1,6 +1,6 @@
-# 100 Small Projects Ideas
+# Hot & Small Projects Ideas 🤗
 
-Learn more about JavaScript, It's fu*#$ng sexy!
+Learn more about JavaScript, It's fu*#$ng sexy. 
 
 ## Projects list:
 
