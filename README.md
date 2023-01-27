@@ -8,10 +8,10 @@ I am here to collect all my previously completed projects, documents, scripts an
 
 ## Projects list:
 
-| Name                           | Description                                            |
-|--------------------------------|--------------------------------------------------------|
-| [JavaScript 30][1]             | A 30 days projects inspired by javascript30.com        |
-| [100 Small Projects][2]        | Mini projects to sharp the JavaScript knowledge        |
+| Name               | Description                                            |
+|--------------------|--------------------------------------------------------|
+| [JavaScript 30][1] | A 30 days projects inspired by javascript30.com        |
+| [Hot Projects][2]  | Mini projects to sharp the JavaScript knowledge        |
 
 [1]: ./projects/javascript30
-[2]: ./projects/100-small-projects
+[2]: ./projects/hot-projects
