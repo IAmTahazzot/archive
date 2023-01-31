@@ -4,7 +4,7 @@
 
 # Hot & Small Projects Ideas 🤗
 
-Learn more about JavaScript, It's fu*#$ng sexy.
+Learn more about JavaScript, It's fu*@$ng sexy.
 
 All projects is designed in figma [Link][figma]
 
