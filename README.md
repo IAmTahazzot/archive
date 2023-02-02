@@ -2,11 +2,11 @@
   <img src="https://raw.githubusercontent.com/IAmTahazzot/Archive/main/archive.gif" alt="archive logo" width="200px" height="200px" />
 </p>
 
-# My Archive
+# What is this Archive repo?
 
-I am here to collect all my previously completed projects, documents, scripts and much more to share what I am learning to the open source world! 
+I am here to collect all my previously completed projects, documents, scripts and much more to share what I am learning to the open source world.
 
-## Projects list:
+## Projects list
 
 | Name               | Description                                            |
 |--------------------|--------------------------------------------------------|
