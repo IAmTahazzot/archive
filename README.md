@@ -14,4 +14,4 @@ I am here to collect all my previously completed projects, documents, scripts an
 | [Hot Projects][2]  | Mini projects to sharp the JavaScript knowledge        |
 
 [1]: ./projects/javascript30
-[2]: ./projects/hot-projects
+[2]: https://github.com/IAmTahazzot/hot-projects
