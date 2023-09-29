@@ -47,24 +47,24 @@ const cardHeadings = document.querySelectorAll('.card-heading');
 cardHeadings.forEach((heading) => {
   heading.addEventListener('click', () => {
     // Get the card content of the clicked heading
-    const cardContent = heading.nextElementSibling;
+    const cardContent = heading.nextElementSibling
 
     // Toggle the 'active' class on the parent card to control the animation
-    heading.parentNode.classList.toggle('active');
+    heading.parentNode.classList.toggle('active')
 
     // Calculate the actual height of the card content
     const contentHeight = cardContent.scrollHeight;
 
     // If the card is active, reveal the content with animation
     if (heading.parentNode.classList.contains('active')) {
-      cardContent.style.maxHeight = contentHeight + 'px';
+      cardContent.style.maxHeight = contentHeight + 'px'
       setTimeout(() => {
-        cardContent.style.opacity = 1;
+        cardContent.style.opacity = 1
       }, 300); // Adjust the delay based on your CSS transition time
     } else {
       // If the card is inactive, collapse the content with animation
       // cardContent.style.opacity = 0;
-      cardContent.style.maxHeight = '0';
+      cardContent.style.maxHeight = '0'
     }
   });
 });
