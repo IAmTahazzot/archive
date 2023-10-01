@@ -1,0 +1,84 @@
+<script src="//cdn.tailwindcss.com"></script>
+
+<script defer>
+  
+class CustomCursor {
+  constructor(pointer, container) {
+    this.pointer = pointer;
+    this.container = container;
+
+    this.render();
+  }
+
+  render() {
+    window.addEventListener("mousemove", (e) => {
+      
+      const shouldActive = e.target.closest('[cursor-expand]') ? true : false
+      console.log(e.target.closest('[cursor-expand]'))
+      
+      
+      this.pointer.setAttribute(
+        "style",
+        `transform: translate3d(calc(${e.pageX}px - 50%), calc(${e.pageY}px - 50%), 0)`
+      );
+      this.container.setAttribute(
+        "style",
+        `transform: translate3d(calc(${e.pageX}px - 50%), calc(${e.pageY}px - 50%), 0); ${shouldActive ? 'height: 80px; width: 80px;': ''}`
+      );
+    });
+  }
+}
+
+new CustomCursor(
+  document.querySelector('.custom-cursor__pointer'), 
+  document.querySelector('.custom-cursor__pointer-bg'));
+</script>
+
+<style>
+button,
+a,
+body {
+  cursor: none;
+}
+
+.custom-cursor {
+  --cursor-theme: #000;
+  pointer-events: none;
+}
+  
+.custom-cursor__pointer-bg {
+  position: absolute;
+  height: 2.125rem;
+  width: 2.125rem;
+  border-radius: 50%;
+  border: 0.5px solid var(--cursor-theme);
+  transition: transform 0.25s linear, height 0.5s ease-in-out, width 0.5s ease-in-out;
+  transform: scale(0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom-cursor__pointer {
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  background-color: var(--cursor-theme);
+}
+</style>
+
+<div class="custom-cursor">
+  <div class="custom-cursor__pointer-bg"></div>
+  <div class="custom-cursor__pointer"></div>
+</div>
+ 
+<!-- @BEGIN CONTENTS -->
+<div class="h-screen flex items-center justify-center">
+  <h1 class="text-8xl uppercase font-bold" cursor-expand>Let's Ride In</h1>
+</div>
+
+<div class="card bg-emerald-500 h-screen">
+  <button 
+        class="m-5 bg-white hover:bg-slate-200 text-black py-3 px-8 rounded-[3px]"
+        cursor-expand>Don't touch me</button>
+</div>
+<!-- @END CONTENTS -->
