@@ -4,23 +4,21 @@
   
 class CustomCursor {
   constructor(pointer, container) {
-    this.pointer = pointer;
-    this.container = container;
+    this.pointer = pointer
+    this.container = container
 
-    this.render();
+    this.render()
   }
 
   render() {
     window.addEventListener("mousemove", (e) => {
-      
       const shouldActive = e.target.closest('[cursor-expand]') ? true : false
-      console.log(e.target.closest('[cursor-expand]'))
-      
-      
+
       this.pointer.setAttribute(
         "style",
         `transform: translate3d(calc(${e.pageX}px - 50%), calc(${e.pageY}px - 50%), 0)`
       );
+      
       this.container.setAttribute(
         "style",
         `transform: translate3d(calc(${e.pageX}px - 50%), calc(${e.pageY}px - 50%), 0); ${shouldActive ? 'height: 80px; width: 80px;': ''}`
