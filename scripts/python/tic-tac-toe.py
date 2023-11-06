@@ -22,14 +22,14 @@ def get_player_move():
     while True:
         move = input("Enter your move (1-9): ")
         if move not in ["1", "2", "3", "4", "5", "6", "7", "8", "9"]:
-            print("Invalid move.")
+            print("Invalid move")
             continue
         else:
             move = int(move) - 1
             if board[move] == "-":
                 return move
             else:
-                print("This spot is already taken.")
+                print("This spot is already taken")
 
 # Check if the game is over
 def is_game_over():
