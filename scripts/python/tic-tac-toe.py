@@ -1,6 +1,6 @@
 # Tic-tac-toe game in Python
 
-# Define the board
+# The board
 board = ["-", "-", "-", "-", "-", "-", "-", "-", "-"]
 
 # Define the players
