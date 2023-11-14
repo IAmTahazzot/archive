@@ -3,7 +3,7 @@
 # The board
 board = ["-", "-", "-", "-", "-", "-", "-", "-", "-"]
 
-# Define the players
+# Define players
 players = ["X", "O"]
 
 # Current player
