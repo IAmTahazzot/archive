@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="archive.png" alt="archive logo" width="150px" height="150px" />
+  <img src="archive.png" alt="archive logo" width="120px" height="120px" />
 </p>
 
 # What is this Archive repo?
