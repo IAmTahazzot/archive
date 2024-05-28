@@ -1,0 +1,5 @@
+print('Hi I am nice')
+
+if 2+2 == 3:
+    print(' 2+2 is equal to 3 ')
+

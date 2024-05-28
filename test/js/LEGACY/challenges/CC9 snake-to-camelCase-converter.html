@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Text From Textarea On Key Press Event</title>
+    <script src="CC9.js" defer></script>
+    <style>
+      textarea {
+        height: 200px;
+        width: 400px;
+        margin: 1rem auto;
+        display: block;
+        border-radius: 0.25rem;
+        border: 1px solid #ddd;
+        transition: box-shadow 0.1s, border-color 1s;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 1rem;
+        padding: 1rem;
+        outline: 0;
+        resize: none;
+      }
+
+      textarea:focus,
+      textarea:active {
+        box-shadow: 0 0 0 4px rgba(0, 140, 255, 0.281);
+        border-color: #52a3ff;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea name="data" id="text"></textarea>
+  </body>
+</html>

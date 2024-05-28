@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport'
+        content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+  <title>Simple Poll Example</title>
+
+  <!--    SCRIPTS -->
+  <script src='../Functions.js' defer></script>
+  <style>
+      *,
+      *::before,
+      *::after {
+          box-sizing: border-box;
+      }
+
+      html {
+          font-size: 62.5%;
+      }
+
+      body {
+          font-size: 1.6rem;
+          margin: 0;
+          font-family: 'Segoe UI', sans-serif, arial;
+      }
+
+      :root {
+          --border-color: #1193F1;
+          --answer-fill-default: rgba(11, 123, 255, 0.07);
+          --answer-fill-paint: rgba(11, 79, 255, 0.12);
+          --poll-card-shadow: 6px 9px 32px 3px rgba(34, 40, 44, 0.09);
+          --selected-poll-border: #12C6FF;
+      }
+
+      .heading {
+          text-align: center;
+          margin: 4rem 0;
+      }
+
+      .poll-container {
+          display: flex;
+          align-items: flex-start;
+          max-width: 120rem;
+          margin: auto;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+      }
+
+      @media screen and (max-width: 1250px) {
+          .poll-container {
+              max-width: 1000px;
+          }
+      }
+
+      @media screen and (max-width: 1050px) {
+          .poll-container {
+              max-width: 768px;
+          }
+      }
+
+      @media screen and (max-width: 800px) {
+          .poll-container {
+              max-width: 100%;
+          }
+      }
+
+      .poll {
+          flex: 0 0 40rem;
+          padding: 4rem;
+          border: 3px solid var(--border-color);
+          box-shadow: var(--poll-card-shadow);
+          border-radius: 6px;
+          background-color: #fff;
+          margin: 2rem;
+      }
+
+      .poll:hover {
+          outline: 1px solid var(--border-color);
+      }
+
+      .question h3 {
+          margin-bottom: 3rem;
+      }
+
+      .option {
+          padding: 1.2rem 2rem;
+          border-radius: 5rem;
+          background-color: var(--answer-fill-default);
+          margin-bottom: 1.2rem;
+          position: relative;
+          overflow: hidden;
+          user-select: none;
+      }
+
+      .option:hover {
+          outline: 1px solid var(--selected-poll-border);
+          outline-offset: 4px;
+      }
+
+      .option p {
+          margin: 0;
+      }
+
+      .option-fill {
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: var(--answer-fill-paint);
+          height: 100%;
+          border-radius: 500rem;
+      }
+
+      code {
+          background-color: #fdefe0;
+          font-family: Consolas, sans-serif;
+          border-radius: 5px;
+          padding: .1rem 1rem;
+      }
+      
+      .line {
+          background-color: #ffe6d7;
+          padding: .5rem 1rem;
+          margin: 1rem 0;
+          text-transform: lowercase;
+          font-size: 90%;
+      }
+
+  </style>
+</head>
+<body>
+
+<h1 class='heading'>My Polls</h1>
+<div class='warning'>
+  It looks like <code>new Poll</code> class is not initiated on
+  <div class='line'>\home\tahazzot\projects\L4 JS\Challenges\Functions.js:
+  <strong>115 line</strong></div>
+</div>
+<div class='poll-container'>
+<!--  <div class='poll'>-->
+<!--    <div class='question'>-->
+<!--      <h3>Who is the most devoted person in the world?</h3>-->
+<!--    </div>-->
+<!--    <div class='options'>-->
+<!--      <div class='option'>-->
+<!--        <p>1. JavaScript <span><strong>80%</strong></span></p>-->
+<!--        <div class='option-fill'></div>-->
+<!--      </div>-->
+<!--      <div class='option voted'>-->
+<!--        <p>2. Python</p>-->
+<!--        <div class='option-fill'></div>-->
+<!--      </div>-->
+<!--      <div class='option'>-->
+<!--        <p>3. Rust</p>-->
+<!--        <div class='option-fill'></div>-->
+<!--      </div>-->
+<!--      <div class='option'>-->
+<!--        <p>4. Matlab</p>-->
+<!--        <div class='option-fill'></div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+
+</div>
+
+</body>
+</html>
